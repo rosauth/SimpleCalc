@@ -48,9 +48,6 @@
         android:id="@+id/operation_add_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/operation_div_btn"
-        android:layout_toRightOf="@+id/operation_div_btn"
         android:background="@color/add_color"
         android:onClick="onAdd"
         android:text="@string/add_operation_text" />
@@ -59,9 +56,6 @@
         android:id="@+id/operation_sub_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/operation_add_btn"
-        android:layout_toRightOf="@+id/operation_add_btn"
         android:background="@color/sub_color"
         android:onClick="onSub"
         android:text="@string/sub_operation_text" />
@@ -70,9 +64,6 @@
         android:id="@+id/operation_mul_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/operation_sub_btn"
-        android:layout_toEndOf="@+id/operation_add_btn"
-        android:layout_toRightOf="@+id/operation_add_btn"
         android:background="@color/mul_color"
         android:onClick="onMul"
         android:text="@string/mul_operation_text" />
@@ -81,7 +72,6 @@
         android:id="@+id/operation_div_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/operation_add_btn"
         android:background="@color/div_color"
         android:onClick="onDiv"
         android:text="@string/div_operation_text" />

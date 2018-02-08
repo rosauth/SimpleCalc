@@ -18,9 +18,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="background_color">#dff8eb</color>
-    <color name="sub_color">#eaf4f4</color>
-    <color name="div_color">#cce3de</color>
-    <color name="add_color">#a4c3b2</color>
-    <color name="mul_color">#6b9080</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="add_color">#E1E5EE</color>
+    <color name="sub_color">#C7CCDB</color>
+    <color name="mul_color">#767B91</color>
+    <color name="div_color">#2A324B</color>
 </resources>
